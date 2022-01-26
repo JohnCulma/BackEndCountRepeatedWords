@@ -9,7 +9,7 @@ namespace CountRepeatedWords.Context
 {
     public class AppDbContext : IdentityDbContext 
     {
-        //IdentityDbContext - Contien
+        //IdentityDbContext - Contiene la seguridad de la aplicacion
         //Contructor para pasar configuraciones -Ejm - Conexión a base de datos
         //Podemos cofigurar las tablas atraves de los comandosp
         public AppDbContext(DbContextOptions options) : base(options)
